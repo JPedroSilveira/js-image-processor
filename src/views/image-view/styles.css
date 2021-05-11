@@ -1,0 +1,20 @@
+.image-view {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.image-view-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 5px;
+    height: auto;
+    width: auto;
+}
+
+.image-view-item canvas {
+    border: 1px solid black;
+}
